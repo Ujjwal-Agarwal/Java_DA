@@ -9,12 +9,13 @@ public class Node {
         this.right = right;
         this.hash = hash;
     }
-    public String getHash() {
-        return hash;
+
+    public Node getLeft() {
+        return left;
     }
 
-    public void setHash(String hash) {
-        this.hash = hash;
+    public void setLeft(Node left) {
+        this.left = left;
     }
 
     public Node getRight() {
@@ -25,15 +26,11 @@ public class Node {
         this.right = right;
     }
 
-    public Node getLeft() {
-        return left;
+    public String getHash() {
+        return hash;
     }
 
-    public void setLeft(Node left) {
-        this.left = left;
+    public void setHash(String hash) {
+        this.hash = hash;
     }
-
-   
-
-    
 }
