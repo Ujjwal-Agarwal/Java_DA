@@ -1,5 +1,4 @@
 package com.example;
-
 import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.List;
@@ -58,12 +57,6 @@ public class MerkleTrees {
 		return newTxList;
 	}
 
-	/**
-	 * Return hex string
-	 * 
-	 * @param str
-	 * @return
-	 */
 	public String getSHA2HexValue(String str) {
 		byte[] cipher_byte;
 		try {
@@ -81,12 +74,6 @@ public class MerkleTrees {
 
 		return "";
 	}
-
-	/**
-	 * Get Root
-	 * 
-	 * @return
-	 */
 	public String getRoot() {
 		return this.root;
 	}
